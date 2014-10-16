@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-10-2014 a las 20:14:40
+-- Tiempo de generación: 16-10-2014 a las 20:44:36
 -- Versión del servidor: 5.6.16
 -- Versión de PHP: 5.5.9
 
@@ -96,7 +96,13 @@ CREATE TABLE IF NOT EXISTS `productos` (
 
 INSERT INTO `productos` (`producto`, `descripcion`, `precio`, `imagen`, `cantComprada`) VALUES
 ('cuaderno 1', 'Cuaderno a rayas con lomo rojo oscuro.', 10000, 'img/cuad_1.jpg', 8),
-('cuaderno 2', 'Cuaderno en blanco\r\ntexturizado de arbol, portada negra.', 5000, 'img/cuad_2.jpg', 8);
+('cuaderno 2', 'Cuaderno en blanco\r\ntexturizado de arbol, portada negra.', 5000, 'img/cuad_2.jpg', 8),
+('cuaderno 3', 'Cuaderno edicion limitada hojas cuadriculadas ', 8000, 'img/cuad_3.jpg', 0),
+('cuaderno 4', 'Cuaderno edicion limitada hojas cuadriculadas ', 5000, 'img/cuad_4.jpg', 0),
+('cuaderno 5', 'Cuaderno personalizado de edicion limitada con hojas a rayas', 7500, 'img/cuad_5.jpg', 0),
+('cuaderno 6', 'Cuaderno personalizado de edicion limitada con hojas a rayas', 4000, 'img/cuad_6.jpg', 0),
+('cuaderno 7', 'Cuaderno personalizado de edicion limitada con hojas a rayas con portada roja y banda elastica', 11000, 'img/cuad_7.jpg', 0),
+('cuaderno 8', 'Cuaderno con portada de madera con motivos decorativos y hojas en blanco.', 12000, 'img/cuad_8.jpg', 0);
 
 -- --------------------------------------------------------
 
