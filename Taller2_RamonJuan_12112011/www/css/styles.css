@@ -1,0 +1,281 @@
+
+/*Reset*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: helvetica_light;
+    src: url(../font/HELVETICALTSTD-LIGHT.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+/*body*/
+body{
+	background-color: white; 
+	color: #30444C;
+	font-family:  Arial, helvetica_light;
+	font-size: 20px;
+	font-weight: normal;
+}
+ img{
+ 	width: 100%;
+ }
+/*header*/
+header{
+	background-color: #30444C;
+	border-bottom: 10px solid #25343A;
+	width: 100%;
+}
+header figure{
+	margin: 0 auto;
+	padding: 20px 0;
+	width: 8%;
+}
+section{
+	text-align: center;
+	margin-top: 50px;
+}
+section div{
+	border: 1px solid #30444C;
+	display: inline-block;
+	text-align: left;
+	margin: 0 2%;
+	vertical-align: top;
+}
+section div h2{
+	background-color: #30444C;
+	box-sizing: border-box;
+	color: white;
+	font-family: helvetica;
+	font-weight: normal;
+	font-size: 20px;
+	padding: 3% 7% 2% 7%;
+	vertical-align: middle;
+	width: 100%;
+
+}
+#log_in{
+	width: 30%;
+		
+}
+#sign_in{
+	width: 40%;
+}
+section div form{
+	padding: 2% 15% 2% 6%;
+}
+
+input{
+	background-color: white;
+	border: 1px solid #30444C;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: block;
+	font-size: 18px;
+	height: 35px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	padding: 2% 0 1% 5%;
+	width: 100%;	
+}
+input[type=submit]{
+	background-color: #30444C;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	width: inherit;
+	padding: 2% 5%;
+}
+
+/*---barra de navegacion--*/
+nav{
+	color:white;
+	padding: 0 5%;
+	
+}
+ul{
+	font-size: 0em;
+	vertical-align: top;
+	display: inline-block;
+	width: 49.5%;
+}
+li{
+		display: inline-block;
+		background: #30444C;
+		border-radius: 0 0 6px 6px;
+		box-sizing: border-box;
+		vertical-align: middle;
+		height: 45px;
+		margin-right: 1px;
+		padding: 1% 3%;
+}
+li a{
+
+		font-size: 2rem;
+		text-decoration: none;
+		color: white;
+}
+#navegacion li{
+	width: 25%;
+	text-align: center;
+
+}
+#user_logout li{
+	float: right;
+
+}
+.clear{
+	clear: both;
+}
+#user_logout li figure{
+	max-width: 17%;
+	margin-right: 10px;
+	
+}
+#user_logout p,#user_logout a,#user_logout figure{
+	display: inline-block;
+		padding: 0;
+		margin: 0;
+	color: white;
+	vertical-align: middle;
+}
+#user_logout p{
+	font-size: 2rem;
+	font-family: helvetica;
+	font-weight: lighter;
+	max-width: 60%;
+
+}
+
+.contenedor{
+	/*margin-left: 3%;
+	margin-right: 3%;*/
+}
+h1{
+	margin-bottom: 40px;
+}
+.articulos{
+	margin-right: 0%;
+	margin-left: 0%;
+	padding: 1.5%;
+	width: 60%;
+}
+ article{
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+}
+.articulos article figure{
+	width: 45%;
+	display: inline-block;
+	margin-right: 40px;
+}
+.cuaderno{
+	-webkit-box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    2px 2px 1px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:         2px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+article aside{
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	padding-top: 3%;
+}
+h3{
+	margin-bottom: 10px;
+	font-family: helvetica;
+	font-size: 25px;
+}
+.articulos article p{
+	margin-bottom: 20px;
+
+}
+.articulos article a img{
+	width: 50px;
+}
+.carro_compras{
+ width: 30%;
+ height: 350px;
+ 
+}
+.carro_contenedor{
+	width: 100%;
+	border: none;
+	margin: 0 0;
+	padding: 0 0 ;
+	height: 300px;
+	overflow-y:scroll;
+}
+
+.carro_compras article{
+	margin: 10px;
+	position: relative;
+}
+.carro_compras article figure{
+ width: 40%;
+ display: inline-block;
+ margin-right: 20px;
+}
+.carro_compras article p{
+	margin-bottom: 10%;
+}
+.carro_compras  a{
+	background-color: #CCCCCC;
+	color: #30444C;
+	position: absolute;
+	text-decoration: none;
+	padding: 0 10px;
+	right: 0;
+	bottom: 0%;
+}
+
+/*-----CSS DEL PERFIL-----//*/
+
+#userInf{
+	width: 30%;
+	text-align: center;
+}
+#userInf figure{
+	width: 40%;
+	margin: 20px auto;
+}
+#userInf figure img{
+	
+	border: 1px solid #CCCCCC;
+}
+#userInf h4{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+#userInf p{
+	margin-bottom: 25px;
+}
+
+.compras{
+	width: 60%;
+}
+.compras figure{
+	width: 45%;
+	display: inline-block;
+	margin-right: 20px;
+}
+.compras article{
+	margin: 10px;
+	position: relative;
+}
+.compras h2{
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+.compras h3{
+	font-size: 25px;
+}
+.compras h4{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.compras p{
+	margin-bottom: 10px;
+}
