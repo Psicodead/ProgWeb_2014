@@ -1,0 +1,58 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+padding-top: 20px;
+
+}
+.dragAndDrop{
+	padding-left: 0;
+}
+#iconos{
+	background-color: rgba(0, 190, 125, 0.3);
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	padding: 10px;
+	text-align: center;
+	
+}
+img{
+	width: 100%;
+}
+#areaSensible{
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.1);
+
+}
+.conten{
+	margin-top: 0;
+	padding-left: 10px;
+}
+#lienzo{
+	width: 100%;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+#miMapa{
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 15px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
